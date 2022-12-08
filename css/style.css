@@ -1,0 +1,131 @@
+/* barlow-semi-condensed-500 - latin */
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/barlow-semi-condensed-v14-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/barlow-semi-condensed-v14-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-semi-condensed-600 - latin */
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/barlow-semi-condensed-v14-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/barlow-semi-condensed-v14-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2,
+h3 {
+  font-weight: 600;
+}
+img {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.item {
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  padding: 2.6rem 3.2rem 3.2rem 3.2rem;
+  border-radius: 8px;
+}
+.item__header {
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.header__img {
+}
+.header-info {
+}
+.header__info--title {
+  line-height: 1.3rem;
+  margin-bottom: 4px;
+}
+.header__info--descr {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  opacity: 0.5;
+}
+.item__info {
+}
+.item__info--title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.item__info--descr {
+  line-height: 1.8rem;
+}
+.grid-continer {
+  display: grid;
+  column-gap: 3rem;
+  row-gap: 2.4rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.item-1 {
+  background-color: #733fc8;
+  color: #cfcfcf;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-image: url("../images/mark.png");
+  background-repeat: no-repeat;
+  background-position: 35.6rem 0;
+}
+.item-2 {
+  background-color: #48556a;
+  color: #ffffff;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.item-3 {
+  background-color: #ffffff;
+  color: #48556a;
+  grid-column: 4/5;
+  grid-row: 1/4;
+}
+.item-4 {
+  background-color: #ffffff;
+  color: #48556a;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.item-5 {
+  background-color: #19202d;
+  color: #ecf2f8;
+  grid-column: 2/4;
+}
